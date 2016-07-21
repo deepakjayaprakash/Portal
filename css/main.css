@@ -1,0 +1,230 @@
+
+/*		General CSS		#41c17d */
+body{
+	background-color: #484848;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+a:hover{font-size: 17pt;transition:0.35s;font-weight: bold;color:lawngreen;}
+
+a{color:#282828;font-size: 15pt;}
+
+/*		Header 		*/
+
+header{
+	width: 100%;
+	height: 120px;
+	transition: 0.5s;
+	z-index: 99;
+	background-color: NavajoWhite;
+}
+header:hover{
+    width: 100%;
+    height: 120px;
+    z-index: 99;
+    transition:1s;
+    background-color: #41c17d;
+}
+
+header .heading{
+	margin: 20px 100px 0 0;
+}
+
+header nav{
+	margin-top: 50px;
+	}
+
+header nav li{
+	float: left;
+	margin-left: 40px;
+}
+
+header nav li a{
+	color: #282828;
+	font-family:  Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	transition: all .2s linear;
+	
+}
+
+header nav li a:hover,
+header nav li a:focus{
+	text-decoration: none;
+	color: lawngreen;
+	font-size: 24px;
+}
+
+/*		Hero section 		*/
+
+.hero{
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 560px;
+	/*background: url('img/hero.jpg') no-repeat fixed center center;*/
+	/*background-size: cover;*/
+}
+
+.hero .caption{
+	position: absolute;
+	margin-left: 80px;
+	color: white;
+	top: 50%;
+
+	transform:translate(0,-50%);
+	
+}
+
+.hero .caption h1{
+	
+	font-family: "open_bold", Helvetica, Arial, sans-serif;
+	font-size: 38px;
+	color: #282828;
+
+	font-style: italic;
+	font-weight: bold;
+}
+
+
+.hero .caption ul li{
+	color: #282828;   
+	 font-weight: bold;
+	font-style: italic;
+	font-size: 30px;
+    line-height: 50px;
+        text-align: center;
+        opacity: 0.6;
+    
+  
+}
+.hero .caption h1:hover{    font-family: "open_bold", Helvetica, Arial, sans-serif;
+    font-size: 42px;
+    color: black;
+
+    font-style: italic;
+    font-weight: bold;
+background-color: lightgrey;
+opacity: 1;
+transition:0.4s;}
+
+/*banner*/
+
+
+
+
+
+/*		About section 		*/
+
+.about{
+	padding: 20px;
+	margin: 3px;
+	border: 2px solid NavajoWhite;
+	clear: both;
+}
+.about:hover{
+	background-color: NavajoWhite;
+	transition: 0.8s;
+
+}
+
+.about .pic{
+	display: inline-block;
+	text-align: center;
+	color: white;
+	margin: 6px;
+}
+
+.about .pic img{
+	width: 100%;
+	height: auto;
+	margin: 5px;
+}
+
+.about .features_list{
+	margin-left: 50px;
+}
+.about .features_list h1{color: #282828;}
+.about .features_list p{
+	color: #282828;
+	font-family:  Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 32px;
+	margin: 6px;
+}
+
+/*		App features 		*/
+
+.app_features{
+	width: 100%;
+	padding: 100px 0 20px 0;
+	background-color: #41c17d;
+	
+}
+
+.app_features h1{
+	color: black;
+
+}
+
+.app_features p{
+		color: #484848;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	margin: 30px 0 0 0;
+	line-height: 28px;
+
+}
+.app_features .row{border: 2px solid;margin: 30px;}
+
+.app_features .details{
+	margin-bottom: 80px;
+}
+
+
+
+
+/*		Subscription section 		*/
+
+.sub_box{
+	width: 100%;
+	padding: 100px 0;
+	text-align: center;
+	
+}
+
+.sub_box .cta_text {
+	color: white;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	margin-bottom: 50px;
+}
+
+
+
+/*		Footer 		*/
+
+
+
+
+#copy{
+	background-color: black;
+	color: white;
+	padding: 50px 0;
+	text-align: center;
+}
+
+#copy:hover{
+	font-size: 15pt;
+	transition:1s;
+	color: white;
+}
+
+
+
+
+
+
+
+
